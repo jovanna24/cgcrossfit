@@ -1,0 +1,19 @@
+.home {
+    /* background-image: url('../../assets/images/biggccf.jpg'); */
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+    
+
+}
+
+.home img {
+    height: 600px;
+}
+
+.home h1 {
+    width: 100%;
+}

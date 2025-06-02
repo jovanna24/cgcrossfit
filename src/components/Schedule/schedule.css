@@ -1,0 +1,14 @@
+.schedule {
+    text-align: center;
+    background-image: url('../../assets/images/smallgccf.jpg'); 
+
+}  
+
+.schedule h1 {
+    padding: 30px;
+}
+
+.schedule ul {
+    padding: 0 0 30px;
+    list-style-type: none;
+}
