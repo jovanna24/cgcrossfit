@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className='header'>
-                <img src={logo} />
+                <img src={logo} alt="cgcf" />
             </div>
             <div className='body'>
                 <h1>
@@ -21,7 +21,7 @@ const Home = () => {
 
             </div>
             <div className='platform'>
-                <img src={platform} />
+                <img src={platform} alt="cgcfplatform"/>
             </div>
         </div>
     );
