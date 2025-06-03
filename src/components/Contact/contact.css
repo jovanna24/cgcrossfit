@@ -1,0 +1,47 @@
+.contact {
+    padding: 100px;
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contact h1 {
+    text-shadow: 2px 2px 4px rgba(109, 5, 5, 0.412);
+    font-size: 50px;
+    padding: 40px;
+
+}
+
+.details {
+    margin: 30px 100px;
+}
+
+.contact h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.insta-stuff{
+    padding-top: 50px;
+}
+
+.instagram-reel-embed {
+display: flex;
+justify-content: center;
+    padding-top: 0px;
+    margin: 10px 160px;
+    border-radius: 10px
+
+}
+.instagram-reel-embed iframe {
+    border: 0.5px solid rgba(0, 0, 0, 0.245);
+    border-radius: 10px;
+    /* Remove margins that were trying to center the border */
+    max-width: 100%; /* Make it responsive within its container */
+}

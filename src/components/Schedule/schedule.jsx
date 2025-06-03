@@ -1,52 +1,47 @@
-import './schedule.css'
+import './schedule.css';
 
-const schedule = () => {
+const weeklySchedule = [
+    {
+        day: 'Monday',
+        classes: ['Weightlifting 5:30 pm', 'CrossFit 6:00 pm'],
+    },
+    {
+        day: 'Tuesday',
+        classes: ['CrossFit 5:45 pm'],
+    },
+    {
+        day: 'Wednesday',
+        classes: ['Weightlifting 5:30 pm', 'CrossFit 6:00 pm'],
+    },
+    {
+        day: 'Thursday',
+        classes: ['CrossFit 5:45 pm'],
+    },
+    {
+        day: 'Friday',
+        classes: ['CrossFit 5:30 pm'],
+    },
+];
+
+const Schedule = () => {
     return (
         <div className='schedule'>
-            <h1>Weekly Schedule</h1>
-            <h2>Monday</h2>
-            <ul>
-                <li>
-                    Weghtlifting 5:30 pm
-                </li>
-                <li>
-                    CrossFit 6:00 pm
-                </li>
+            <div className='text'>
+                <h1>Weekly Schedule</h1>
+                {weeklySchedule.map((daySchedule, index) => (
+                    <div key={index}>
+                        <h2>{daySchedule.day}</h2>
+                        <ul>
+                            {daySchedule.classes.map((className, idx) => (
+                                <li key={idx}>{className}</li>
+                            ))}
+                        </ul>
+                    </div>
 
-            </ul>
-            <h2>Tuesday</h2>
-            <ul>
-                <li>
-                    CrossFit 5:45 pm
-                </li>
-
-            </ul>
-            <h2>Wednesday</h2>
-            <ul>
-                <li>
-                    Weghtlifting 5:30 pm
-                </li>
-                <li>
-                    CrossFit 6:00 pm
-                </li>
-
-            </ul>
-            <h2>Thursday</h2>
-            <ul>
-                <li>
-                    CrossFit 5:45 pm
-                </li>
-
-            </ul>
-            <h2>Friday</h2>
-            <ul>
-                <li>
-                    CrossFit 5:30 pm
-                </li>
-
-            </ul>
+                ))}
+            </div>
         </div>
     );
 };
 
-export default schedule;
+export default Schedule;

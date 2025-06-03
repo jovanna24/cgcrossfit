@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/smallgccf.jpg';
 
 
 const NavBar = () => {
@@ -12,28 +11,26 @@ const NavBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary navbar">
       <Container>
         <Navbar.Brand  as={Link} to="/" >
-        {/* <img
-            src={logo}
-            alt="Grande City CrossFit Logo"
-            className="d-inline-block align-top"
-          /> */}
         GRANDE CITY CROSSFIT</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Container>
-        <Container className='pe-0'>
+        <Container >
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Leaderboard</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+            <NavDropdown title="More" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to ="/leaderboard">Leaderboard</NavDropdown.Item>
+              <NavDropdown.Item 
+              href='https://grandecitycrossfit.sites.zenplanner.com/sign-up-now.cfm'
+                target="_blank"
+                rel="noopener noreferrer">
                 Sign Up!
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something?</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/coaches">Coaches</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item as={Link} to ="/contact">
+                Say Hi! 👋
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
