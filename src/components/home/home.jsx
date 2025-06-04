@@ -15,9 +15,9 @@ const Home = () => {
                 <h2>
                     WORDS OF ENCOURAGEMENT FROM COACHES AND MEMBERS
                 </h2>
-                <p>
+                <h3>
                     WORDS OF ENCOURAGEMENT FROM COACHES AND MEMBERS
-                </p>
+                </h3>
 
             </div>
             <div className='platform'>

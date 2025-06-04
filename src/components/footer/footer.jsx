@@ -1,15 +1,15 @@
 import './footer.css';
 import navIcon1 from '../../assets/images/instagram.svg';
-import logo from '../../assets/images/logobw.svg'; 
+import logo from '../../assets/images/logobw.svg';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className='footer-content'>
+            <div className='footer-content ms-0'>
                 <div className='footer-logo'>
                     <Link to="/">
-                    <img src={logo} alt='logo' height="30" /> 
+                        <img src={logo} alt='logo' height="30" />
                     </Link>
                 </div>
                 <div className='social-icon'>
@@ -21,6 +21,7 @@ const Footer = () => {
                     <p>&copy; 2020 Grande City CrossFit. All Rights Reserved</p> {/* More standard copyright symbol and text */}
                 </div>
             </div>
+
         </div>
     );
 };

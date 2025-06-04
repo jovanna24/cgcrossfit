@@ -1,11 +1,12 @@
-.coaches{
+.coaches {
     padding: 80px;
     text-align: center;
-    
+
 }
 
-.coaches h1, h2{
-        font-family: "Bebas Neue", sans-serif;
+.coaches h1,
+h2 {
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -14,25 +15,28 @@
 .coaches li {
     list-style-type: none;
     text-align: center;
-    
+
 }
 
-.coach-profile{
+.coach-profile {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.coach-profile img{
+.coach-profile img {
     max-width: 300px;
     border-radius: 10px;
     margin: 30px;
- transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
+
 .coach-profile a {
-    display: block; /* Make the entire link area clickable */
+    display: block;
+    /* Make the entire link area clickable */
 }
-.coach-profile img:hover{
+
+.coach-profile img:hover {
     opacity: 0.8;
 }
 
@@ -42,4 +46,21 @@
 
 .deets ul {
     padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .coaches {
+        padding-top: 90px;
+    }
+    .coach-profile {
+        margin: 10px 5px;
+        padding: 0px, 5px;
+    }
+    .coach-profile img {
+        max-width: 200px;
+    }
+    .deets{
+        padding-top: 30px;
+        margin: 50px 20px;
+    }
 }

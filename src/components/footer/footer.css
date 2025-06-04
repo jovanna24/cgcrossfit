@@ -13,7 +13,7 @@
 .footer-content {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .footer-logo img:hover {
- transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -46,7 +46,7 @@
 
 .social-icon img:hover {
     opacity: 1;
-     transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -59,4 +59,23 @@
     font-size: 0.9em;
     margin: 0;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        max-height: 50px;
+    }
+    .footer-logo img {
+        max-width: 30px;
+    }
+
+    .social-icon img {
+        max-width: 20px;
+    }
+
+    .footer-copyright {
+        font-size: 0.6em;
+        padding-right: 20px;
+}
+
 }

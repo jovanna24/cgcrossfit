@@ -19,8 +19,7 @@ const Contact = () => {
                 Email: grandecitycrossfit@gmail.com
             </h2>
             <h2>
-                Location:
-                <a href='https://www.google.com/maps/place/1150+E+Florence+Blvd+Suite+5,+Casa+Grande,+AZ+85122/@32.8806227,-111.7402671,17z/data=!3m1!4b1!4m6!3m5!1s0x872a673e1d4c0bc9:0x976283f563ac919!8m2!3d32.8806227!4d-111.7376868!16s%2Fg%2F11t4b72lpf?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D' target='blank' rel='noopener noreferrer' >
+                Location: <a href='https://www.google.com/maps/place/1150+E+Florence+Blvd+Suite+5,+Casa+Grande,+AZ+85122/@32.8806227,-111.7402671,17z/data=!3m1!4b1!4m6!3m5!1s0x872a673e1d4c0bc9:0x976283f563ac919!8m2!3d32.8806227!4d-111.7376868!16s%2Fg%2F11t4b72lpf?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D' target='blank' rel='noopener noreferrer' >
                  1150 E. Florence Blvd Ste 5 , Casa Grande, AZ, United States, Arizona
                 </a>
             </h2>

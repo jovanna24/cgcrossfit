@@ -40,4 +40,19 @@
 .schedule ul {
     padding: 0 0 30px;
     list-style-type: none;
+} 
+
+@media screen and (max-width: 768px) {
+    .schedule {
+        display: flex;
+    }
+    .text {
+        display: -ms-inline-flexbox;
+            text-align: center; 
+            padding: 90px;
+
+    }
+    .schedule::before{
+        max-height: 100vh;
+    }
 }
