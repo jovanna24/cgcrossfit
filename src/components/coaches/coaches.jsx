@@ -36,16 +36,16 @@ const ourTeam = [
 
 const Coaches = () => {
     return (
-        <div className='coaches'>
-            <h1>MEET OUR TEAM</h1>
+        <div className='coaches-section'>
+            <h1 className='coaches-heading'>MEET OUR TEAM</h1>
             {ourTeam.map((peeps, index) => (
                 <div key={index} className="coach-profile">
                     <a href={peeps.instagramURL} target="_blank" rel="noopener noreferrer">
-                        <img src={peeps.image} alt={peeps.name} className="coach-image" />
+                        <img src={peeps.image} alt={peeps.name} className="coach-image" loading="lazy" />
                     </a>
                     <div className='deets'>
-                        <h2>{peeps.name}</h2>
-                        <ul>
+                        <h2 className='coach-name'>{peeps.name}</h2>
+                        <ul className='coach-credentials-list'>
                             {peeps.creds.map((classname, idx) => (
                                 <li key={idx}>{classname}</li>
                             ))}

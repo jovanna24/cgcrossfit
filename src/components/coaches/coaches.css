@@ -1,10 +1,10 @@
-.coaches {
-    padding: 80px;
+.coaches-section {
+    padding: 80px 20px;
     text-align: center;
 
 }
 
-.coaches h1,
+.coaches-section h1,
 h2 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -12,55 +12,122 @@ h2 {
 
 }
 
-.coaches li {
+.coaches-heading {
+    margin-bottom: 50px;
+    /* Add space below the main heading */
+    font-size: 3.5rem;
+    /* Use rem for scalable font sizes */
+    color: #333;
+    /* A slightly darker color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle text shadow */
+}
+
+.coach-credentials-list {
     list-style-type: none;
-    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+.coach-credentials-list li {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    color: #555;
 
 }
 
 .coach-profile {
     display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-.coach-profile img {
-    max-width: 300px;
-    border-radius: 10px;
-    margin: 30px;
-    transition: opacity 0.3s ease-in-out;
+    align-items: center;
+    padding: 30px 15px;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .coach-profile a {
     display: block;
-    /* Make the entire link area clickable */
+    line-height: 0;
+}
+
+.coach-profile img {
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 3px solid transparent;
+
 }
 
 .coach-profile img:hover {
-    opacity: 0.8;
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #100e0e5d;
 }
 
 .deets {
-    margin: 70px 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.deets ul {
-    padding: 30px;
+.deets .coach-name {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #444
 }
 
-@media screen and (max-width: 768px) {
-    .coaches {
-        padding-top: 90px;
-    }
+@media screen and (min-width: 769px) {
     .coach-profile {
-        margin: 10px 5px;
-        padding: 0px, 5px;
+        padding: 40px;
+    } 
+
+    .deets {
+        text-align: left; 
+        margin-top: 0;
     }
-    .coach-profile img {
-        max-width: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .coaches-section{
+        padding-top: 60px; 
+        padding-bottom: 40px;
+    } 
+
+    .coaches-heading {
+        font-size: 2.5 rem; 
+        margin-bottom: 30px;
+    } 
+
+    .coach-profile{
+        padding: 20px 10px; 
+        margin-bottom: 30px;
+    } 
+
+    .coach-profile img{
+        max-width: 180px; 
+        margin-bottom: 20px ;
+    } 
+
+    .deets {
+        margin-top: 0;
+    } 
+
+    .deets .coach-name{
+        font-size: 1.8rem;
+    } 
+
+    .coach-credentials-list li{
+        font-size: 1rem;
     }
-    .deets{
-        padding-top: 30px;
-        margin: 50px 20px;
-    }
+    
 }

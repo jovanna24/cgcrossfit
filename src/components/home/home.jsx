@@ -8,7 +8,7 @@ const Home = () => {
             <div className='header'>
                 <img src={logo} alt="cgcf" />
             </div>
-            <div className='body'>
+            <div className='body-content'>
                 <h1>
                     WORDS OF ENCOURAGEMENT FROM COACHES AND MEMBERS
                 </h1>

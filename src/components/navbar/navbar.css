@@ -1,14 +1,8 @@
 .navbar {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+    width: 100vw;
 }
-.bg-body-tertiary.navbar{
-    position: fixed;
-}
+
 
 .navbar-brand {
     text-align: center;
@@ -21,4 +15,8 @@
 
 .navbar-collapse{
 padding-right: 40px;
+}
+
+.navbar-toggler.collapsed {
+  background-color: rgba(194, 38, 38, 0.362);
 }

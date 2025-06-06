@@ -1,70 +1,91 @@
-.contact {
-    padding: 100px;
+/* Base styles for the contact section */
+.contact-section {
+    padding: 60px 20px ; 
     color: black;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
-.contact h1 {
+.contact-section h1 {
     text-shadow: 2px 2px 4px rgba(109, 5, 5, 0.412);
     font-size: 50px;
-    padding: 40px;
-
+    margin-bottom: 40px; 
 }
 
-.details {
-    margin: 30px 100px;
+.contact-details {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
 
-.contact h2 {
-    text-align: center;
+.contact-details h2 {
+    display: flex; 
     justify-content: center;
-    display: flex;
-    text-decoration: none;
-
+    align-items: center; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    flex-wrap: wrap; 
 }
 
-.insta-stuff {
-    padding-top: 50px;
+.contact-details h2 a {
+    color: inherit; 
+    text-decoration: none; 
+    margin-left: 5px;
+    word-break: break-word; 
+}
+
+.contact-details h2 a:hover {
+    text-decoration: underline; 
+}
+
+.instagram-section {
+    padding-top: 50px; 
 }
 
 .instagram-reel-embed {
     display: flex;
     justify-content: center;
-    padding-top: 0px;
-    margin: 10px 160px;
-    border-radius: 10px
+    padding: 0; 
 }
 
 .instagram-reel-embed iframe {
     border: 0.5px solid rgba(0, 0, 0, 0.245);
     border-radius: 10px;
-    /* Remove margins that were trying to center the border */
-    max-width: 100%;
-    /* Make it responsive within its container */
+    max-width: 100%; 
+    height: 100vh; 
 }
 
 @media screen and (max-width: 768px) {
-    .contact {
-        max-width: 50px;
-        padding: 40px;
-
+    .contact-section {
+        padding: 40px 15px; 
     }
 
-    .contact h1 {
-        font-size: 30px; 
-        max-width: 100vw;
-        padding: ;
-    } 
-
-    .contact h2 {
-        font-size: 20px;
+    .contact-section h1 {
+        font-size: 36px; 
+        margin-bottom: 30px;
     }
 
-    .contact a {
-        display: flex;
+    .contact-details {
+        margin: 0; 
+        padding: 0 15px; 
+    }
+
+    .contact-details h2 {
+        font-size: 20px; 
+        flex-direction: column; 
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .contact-details h2 a {
+        margin-left: 0; 
+        margin-top: 5px; 
+    }
+
+    .instagram-reel-embed {
+        margin: 0 auto;
+        padding: 0;
     }
 }
