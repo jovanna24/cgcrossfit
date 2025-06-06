@@ -25,13 +25,13 @@ const weeklySchedule = [
 
 const Schedule = () => {
     return (
-        <div className='schedule'>
-            <div className='text'>
-                <h1>Weekly Schedule</h1>
+        <section className='schedule-section'>
+            <div className='schedule-content'>
+                <h1 className='schedule-title'>Weekly Schedule</h1>
                 {weeklySchedule.map((daySchedule, index) => (
                     <div key={index}>
-                        <h2>{daySchedule.day}</h2>
-                        <ul>
+                        <h2 className='day-title'>{daySchedule.day}</h2>
+                        <ul className='class-list'>
                             {daySchedule.classes.map((className, idx) => (
                                 <li key={idx}>{className}</li>
                             ))}
@@ -40,7 +40,7 @@ const Schedule = () => {
 
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 
