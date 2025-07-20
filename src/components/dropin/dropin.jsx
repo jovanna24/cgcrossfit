@@ -20,7 +20,8 @@ const Dropin = () => {
                     Grande City CrossFit is conveniently located in Casa Grande, Arizona.
                 </p>
                 <div className='map-container'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6621800547705!2d-111.74023922441887!3d32.8806564786826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872a675b30820f41%3A0x48a858e4a92e7466!2sGrande%20City%20CrossFit!5e0!3m2!1sen!2sus!4v1752981728329!5m2!1sen!2sus" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6621800547705!2d-111.74023922441887!3d32.8806564786826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872a675b30820f41%3A0x48a858e4a92e7466!2sGrande%20City%20CrossFit!5e0!3m2!1sen!2sus!4v1752981728329!5m2!1sen!2sus" 
+                    width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map showing CrossFit Casa Grande location"></iframe>
                 </div>
                 <p className="address">
                     1150 E Florence Blvd Suite 5<br/>
