@@ -11,13 +11,13 @@
 
 }
 
-.header {
+.h-header {
     background-color: black;
 
 
 }
 
-.header img {
+.h-header img {
     max-height: 600px;
 }
 
@@ -53,7 +53,7 @@
     .body-content{
         padding: 0 20px;
     }
-    .header img {
+    .h-header img {
         max-height: 300px;
     }
 

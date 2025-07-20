@@ -5,7 +5,7 @@ import platform from '../../assets/images/platform.jpg'
 const Home = () => {
     return (
         <div className='home'>
-            <div className='header'>
+            <div className='h-header'>
                 <img src={logo} alt="cgcf" />
             </div>
             <div className='body-content'>

@@ -28,7 +28,7 @@ const handleNavClick = () => {
             <Nav.Link as={Link} to="/" onClick={handleNavClick}>Home</Nav.Link>
             <Nav.Link as={Link} to="/schedule" onClick={handleNavClick}>Schedule</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to ="/leaderboard" onClick={handleNavClick}>Leaderboard</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to ="/drop-in" onClick={handleNavClick}>Drop In</NavDropdown.Item>
               <NavDropdown.Item 
               href='https://grandecitycrossfit.sites.zenplanner.com/sign-up-now.cfm'
                 target="_blank"

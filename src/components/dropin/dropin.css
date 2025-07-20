@@ -1,0 +1,144 @@
+/* General body styling for better defaults */
+body {
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.dropin {
+    background-color: #f0f0f0da; 
+    min-height: 100vh;
+    text-align: center;
+    color: #333; 
+}
+
+.d-header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.d-header img {
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.header h3{
+    color: #ffd900ac;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 2;
+}
+
+.header h1 {
+    color: #ffffffce;
+    margin-top: 0;
+    font-size: 3em;
+    position: relative;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.324);
+}
+
+.header p {
+    color: #e0e0e0;
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+     z-index: 2;
+}
+
+.button {
+    display: inline-block;
+    background-color: #e44c2695; 
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.button:hover {
+    background-color: #c93b1d; /* Darken on hover */
+}
+
+.location-section {
+    padding: 40px 20px; /* Add some padding around the section */
+    background-color: #ffffff; /* A clean background for this section */
+    margin-top: 30px; /* Space from the header */
+}
+
+.location-section h2 {
+    color: #e44d26; /* Use your accent color */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.location-section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (height / width = 9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #eee; /* Placeholder color */
+    margin: 0 auto 30px auto; /* Center the map and add bottom margin */
+    border-radius: 8px; /* Slightly rounded corners for the map */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.address {
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.address a {
+    color: #e44d26;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.address a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5em;
+    }
+    .header h3 {
+        font-size: 1em;
+    }
+    .location-section {
+        padding: 30px 15px;
+    }
+    .location-section h2 {
+        font-size: 1.8em;
+    }
+}

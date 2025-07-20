@@ -3,23 +3,23 @@ import './schedule.css';
 const weeklySchedule = [
     {
         day: 'Monday',
-        classes: ['Weightlifting 5:30 pm', 'CrossFit 6:00 pm'],
+        classes: ['CrossFit 5:00 am','CrossFit 8:00 am','Weightlifting 4:30 pm', 'CrossFit 6:00 pm'],
     },
     {
         day: 'Tuesday',
-        classes: ['CrossFit 5:45 pm'],
+        classes: ['CrossFit 5:00 am','CrossFit 8:00 am','CrossFit 5:45 pm'],
     },
     {
         day: 'Wednesday',
-        classes: ['Weightlifting 5:30 pm', 'CrossFit 6:00 pm'],
+        classes: ['CrossFit 5:00 am','CrossFit 8:00 am','Weightlifting 4:30 pm', 'CrossFit 6:00 pm'],
     },
     {
         day: 'Thursday',
-        classes: ['CrossFit 5:45 pm'],
+        classes: ['CrossFit 5:00 am','CrossFit 8:00 am','CrossFit 5:45 pm'],
     },
     {
         day: 'Friday',
-        classes: ['CrossFit 5:30 pm'],
+        classes: ['CrossFit 5:00 am','CrossFit 8:00 am','CrossFit 5:30 pm'],
     },
 ];
 

@@ -2,6 +2,7 @@ import './coaches.css';
 import cJess from '../../assets/images/cJess.png';
 import cPaul from '../../assets/images/cPaul.png';
 import blank from '../../assets/images/blank.png';
+import cChris from '../../assets/images/chrism.jpg'
 
 
 const ourTeam = [
@@ -19,9 +20,9 @@ const ourTeam = [
 
     },
     {
-        name: 'Chris',
-        creds: ['Weightlifing Instructor', 'Coach'],
-        image: blank,
+        name: 'Chris Montiel',
+        creds: ['CF L1','Weightlifing Instructor', 'Coach'],
+        image: cChris,
         instagramURL: 'https://www.instagram.com/grande.city.crossfit/'
 
     },
